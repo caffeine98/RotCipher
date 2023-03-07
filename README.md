@@ -7,6 +7,13 @@ A simple Rotation Cipher (Caesar cipher) written in C
 Include shift amount argument to shift to exact value (0 to 25, 26 will loop back to 0).
 
 Not including shift amount will print all rotations from 0 to 26
+
+# Build
+Build using gcc compiler
+```
+gcc RotCipher.c -o RotCipher -Wall -Wextra -pedantic
+```
+
 # Example output
 ```
 ./RotCipher "The quick brown fox jumps over the lazy dog"    
