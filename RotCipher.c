@@ -16,7 +16,7 @@ void shiftString (char* str, size_t strLength, int shift) {
     char c;
     size_t i;
 
-    // Go through each character in the string and shift
+    /* Go through each character in the string and shift */
     for (i = 0; i < strLength; ++i) {
         c = str[i];
         if (isalpha(c) && isupper(c)) {
